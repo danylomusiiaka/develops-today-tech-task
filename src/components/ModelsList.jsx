@@ -1,13 +1,24 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import "@/styles/globals.css";
 
-export default function VehicleModels({ makeId, year, results }) {
+export default function ModelsList({ makeId, year, results }) {
   const router = useRouter();
 
   if (results.length === 0) {
-    return <div>No models found for the selected type and year.</div>;
+    return (
+      <div className='flex items-center justify-center min-h-screen bg-gray-100'>
+        <div className='w-full max-w-md h-34 flex-col justify-center p-8 bg-white rounded-lg shadow-lg '>
+          <h1 className='text-3xl font-bold text-red-600 mb-4'>Not Found</h1>
+          <p className='text-xl text-gray-700'>No models found for this type and year.</p>
+          <button className='py-2 px-4 mt-5 rounded-lg font-semibold text-white transition-colors duration-300 bg-gray-400'>
+            <Link href='/'>Go back to home</Link>
+          </button>
+        </div>
+      </div>
+    );
   }
 
   return (

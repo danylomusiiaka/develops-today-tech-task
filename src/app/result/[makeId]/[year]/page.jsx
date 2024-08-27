@@ -1,4 +1,4 @@
-import VehicleModels from "@/components/VehicleModels";
+import ModelsList from "@/components/ModelsList";
 
 export default async function ResultPage({ params }) {
   const { makeId, year } = params;
@@ -10,5 +10,5 @@ export default async function ResultPage({ params }) {
 
   const data = await response.json();
 
-  return <VehicleModels makeId={makeId} year={year} results={data.Results} />;
+  return <ModelsList makeId={makeId} year={year} results={data.Results} />;
 }

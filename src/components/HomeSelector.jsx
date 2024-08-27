@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import "@/styles/globals.css";
 
-export default function VehicleSelector({ vehicleTypes }) {
+export default function HomeSelector({ vehicleTypes }) {
   const [selectedType, setSelectedType] = useState("");
   const [selectedYear, setSelectedYear] = useState("");
 
@@ -30,7 +30,7 @@ export default function VehicleSelector({ vehicleTypes }) {
 
   return (
     <section className='flex items-center justify-center min-h-screen '>
-      <form className='w-full max-w-lg p-6 bg-white rounded-lg shadow-md'>
+      <form className='w-full max-w-lg mb-20 p-6 bg-white rounded-lg shadow-md'>
         <h1 className='text-2xl font-bold mb-6 text-center text-gray-800'>Select Your Vehicle</h1>
 
         <div className='mb-4'>
@@ -73,7 +73,7 @@ export default function VehicleSelector({ vehicleTypes }) {
         <button
           type='button'
           onClick={handleNextClick}
-          className={`w-full py-2 mt-20 px-4 rounded-lg font-semibold text-white transition-colors duration-300 ${
+          className={`w-full py-2 px-4 rounded-lg font-semibold text-white transition-colors duration-300 ${
             isButtonDisabled
               ? "bg-gray-400 cursor-not-allowed"
               : "bg-indigo-600 hover:bg-indigo-700"
