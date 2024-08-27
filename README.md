@@ -1,6 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# JS engineer test assessment - the Car Dealer App
 
-## Getting Started
+## You can see result by clicking on link
+
+[Link to deployed app](https://develops-today-tech-task.vercel.app/)
+
+## or set up in your IDE manually
 
 First, run the development server:
 
