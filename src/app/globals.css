@@ -2,9 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-select {
-  width: 100px;
-}
