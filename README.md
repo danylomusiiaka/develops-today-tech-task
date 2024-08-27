@@ -1,10 +1,10 @@
 # JS engineer test assessment - the Car Dealer App
 
-## You can see result by clicking on link
+### You can see result by clicking on link
 
 [Link to deployed app](https://develops-today-tech-task.vercel.app/)
 
-## or set up in your IDE manually
+### or set up in your IDE manually
 
 First, run the development server:
 
