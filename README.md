@@ -2,7 +2,7 @@
 
 ### You can see result by clicking on link
 
-[Link to deployed app](https://develops-today-tech-task.vercel.app/)
+[Link to deployed app](https://car-dealer-develops-today.vercel.app/)
 
 ### or set up in your IDE manually
 
