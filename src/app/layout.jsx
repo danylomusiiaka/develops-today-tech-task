@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Filter Page",
+  title: "Car Dealer App",
   description: "Filtering cars by type and year",
 };
 
